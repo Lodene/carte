@@ -1,0 +1,207 @@
+@font-face
+{
+    font-family: carten;
+    src: url(../fonts/Carten.otf);
+    src: url(../fonts/Sunflower.otf);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.main {
+	min-height: 85vh;	
+}
+
+#definitif {
+	width: 100%;
+	opacity: 0.5;
+	position: fixed;
+	z-index: -1;
+}
+
+#carte{
+	width: 10%;
+}
+
+.premierel {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.bas .bar {
+	display: flex;
+	justify-content: center;		
+}
+
+.bar2 {
+	width: 80%;
+	border-bottom: 2px solid black;
+}
+
+.deuxiemel {
+	font-family:  Sunflower;
+}
+
+.main {
+	display: flex;
+	justify-content: center;
+}
+
+.main .liens  {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-decoration: none;
+	color: black;
+	min-height: 100vh;
+	font-size: 30px;
+	width: 50%;
+	text-align: center;
+}
+
+.bas {
+	background-color: rgb(255, 255, 255);
+}
+
+.deuxieme {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 10vh;
+}
+
+a {
+	text-decoration: none;
+}
+.background{
+	background-color: #04a534;
+	width: 70%;
+	height: auto;
+	margin-top: 5%;
+	border-radius: 2em;
+}
+
+.text {
+	text-align: center;
+	margin-top: 5%;
+	padding: 5% 5% 5% 5%;
+	margin: 2% 2% 2% 2%;
+	border-radius: 2em;
+	border:  2px solid black;
+}
+
+.text .question a {
+	width: 50%;
+	text-align: center;
+	font-size: 30px;
+	text-decoration: none;
+	color: black;
+}
+
+.text .question a p {
+	margin-top: 20px;
+}
+
+#textArea1, #textArea2, #textArea3, #textArea4 {
+	margin-bottom: 20px;
+}
+
+.text > .ligneun  > h2 {
+	margin-bottom: 20px;
+	font-size: 3em;
+}
+
+
+.troisieme {
+	min-height: 50vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 20vh;
+	font-size: 25px;
+	padding: 2% 0% 2% 0%;
+}
+
+.troisieme h3 {
+	border: 2px solid black;
+	border-radius: 1em;
+	padding: 1% 1% 1% 1%;
+	width: 200px;
+	text-align: center;
+}
+
+.troisieme a {
+	color: black;
+}
+
+.cinquieme {
+	margin-top: 15vh;
+	margin-bottom: 15vh;
+	display: flex;
+	justify-content: space-around;
+}
+
+.quatrieme{
+	margin-top: 20vh;
+	display: flex;
+	justify-content: space-around;
+}
+
+.association {
+	display: flex;
+	justify-content: space-around;
+}
+
+.gaucheq {
+	width: 30%;
+}
+
+.gaucheq p {
+	text-align: center;
+	font-size: 25px;
+}
+
+.gaucheq .titreq {
+	text-align: center;
+	font-size: 30px;
+}
+
+.droiteq {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.droiteq a {
+	text-decoration: none;
+	color: black;
+	font-size: 25px;
+}
+
+.dernier {
+	margin-top: 5%;
+	padding-bottom: 8%;
+}
+.fin {
+	display: flex;
+	justify-content: space-around;
+}
+
+.quatriemeborder {
+	border: thick double black;
+	border-radius: 2em;
+	padding: 5% 5px 5% 5px;
+	width: 80%;
+}
+
+
+.liencontact {
+	-webkit-transition: all 1s ease; /* Safari et Chrome */
+}
+
+.liencontact:hover {
+	-webkit-transform:scale(1.25); /* Safari et Chrome */
+	text-decoration: underline;
+}
+

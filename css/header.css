@@ -1,0 +1,37 @@
+@font-face
+{
+    font-family: carten;
+    src: url(../fonts/Carten.otf);
+    src: url(../fonts/Sunflower.otf);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+header {
+	position: fixed;
+	width: 100%;
+	min-height: 15vh;
+	display: flex;
+	justify-content: space-around;
+	background-color: white;
+	z-index: 1000;
+
+}
+
+header .gauche, .droite {
+	display: flex;
+	align-items: center;
+	font-size: 30px;
+}
+
+header .gauche a, .droite a {
+	text-decoration: none;
+	font-size: 50px;
+	color: black;
+	font-family: carten;
+}
